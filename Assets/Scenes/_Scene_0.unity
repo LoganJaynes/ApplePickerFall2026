@@ -307,6 +307,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 246476904979648638, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 246476904979648638, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 1209656679235354071, guid: e197a0b784b1d4b7cb5958a409b94390, type: 3}
+    - target: {fileID: 246476904979648638, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
+      propertyPath: changeDirChance
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917116958075984750, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917116958223008049, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3917116959648113356, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -317,7 +337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3917116959648113356, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3917116959648113356, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -351,9 +371,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3917116959648113357, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3917116959648113359, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
       propertyPath: m_Name
       value: AppleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917116959648113359, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7d33d0fa864e4221a6ac2027d8420f2, type: 3}
