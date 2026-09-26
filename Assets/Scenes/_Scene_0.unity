@@ -215,7 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cc81dedf12ab41e78e9072586f33ae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resetHighScoreNow: 1
+  resetHighScoreNow: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,7 +502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basketPrefab: {fileID: 2778462520993021045, guid: dab9b329046b445b989af83bafdf1e25, type: 3}
-  numBaskets: 3
+  numBaskets: 4
   basketBottomY: -14
   basketSpacingY: 2
   basketList: []
