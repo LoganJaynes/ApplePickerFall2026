@@ -32,6 +32,14 @@ public class Basket : MonoBehaviour
             scoreCounter.score += 100;
             HighScore.TRY_SET_HIGH_SCORE(scoreCounter.score);
         }
+        else if (collidedWith.CompareTag("Branch")) // NEW
+        {
+            Destroy(collidedWith);
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.EndGame();
+            }
+        }
     }
 
 }
